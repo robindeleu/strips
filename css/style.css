@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-image: url('https://images.unsplash.com/photo-1568655029121-802fc55cf976?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60');
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px auto auto 100px;
+    grid-gap: 10px;
+}
+.h{       
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+.header{
+    grid-column: 1/5;
+    grid-row:1;
+    padding-left: 10px;
+}
+.sidebar{
+    grid-column: 1/2;
+    grid-row:2;
+    padding: 10px;
+}
+.articles{
+    grid-column: 2/5;
+    grid-row:2/4;
+}
+.footer{
+    grid-column: 1/5;
+    grid-row:4;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+    padding-right: 10px;
+}
+.f{
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.s{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.t{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.fa{
+
+    margin: 10px;
+    padding: 10px;
+}
+.sa{
+
+    margin: 10px;
+    padding: 10px;
+}
+div.footer{
+    text-align: center;
+    padding: 40px;
+}
